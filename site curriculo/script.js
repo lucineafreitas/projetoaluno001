@@ -1,5 +1,5 @@
 
-alert("Olá mundo!");
+//alert("Olá mundo!");
 
 //Uma variável guarda algum valor temporariamente
 //Entrada dos dados
@@ -9,15 +9,15 @@ var senha = "99999";
 
 //estrutura de condição
 if(idade > 17){
-    alert("Pode votar! "+ nome);
+    //alert("Pode votar! "+ nome);
 } else{
-    alert("Vai embora daqui! "+ nome);
+    //alert("Vai embora daqui! "+ nome);
 }
 
 if(nome == "Valdecir" && senha =="123"){
-    alert("Login concedido! ");
+    //alert("Login concedido! ");
 }else{
-    alert("Tente Novamente! seu intruso!");
+    //alert("Tente Novamente! seu intruso!");
 }
 
 //laço de repetição
