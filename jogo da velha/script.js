@@ -11,15 +11,15 @@ function jogar(celula){
         //alterna a variável jogador para a próxima jogada
         if(jogador == "x"){
             jogador = "o";
-            celula.style.backgroundColor = "red";
+            celula.style.backgroundColor = "gold";
             
-        }else if(jogador == "o"){
-            jogador = "u";
-            celula.style.backgroundColor = "blue";
-
-         }else if(jogador == "u"){
+         }else{
             jogador = "x";
-            celula.style.backgroundColor = "orange";
+            celula.style.backgroundColor = "silver";
         }
     }
+}
+
+function reiniciar(){
+    window.location.reload();
 }
