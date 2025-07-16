@@ -18,3 +18,28 @@
 }
 
 
+.menu-item:hover{
+    color: rgb(34, 89, 207);
+}
+.fundoLogin{
+    background-color: rgba(68, 90, 197);
+}
+
+.painel{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.cabecalho{
+    color: rgb(104, 156, 223);
+    text-align: center;
+    font-size: 40px;
+}
+.botao:hover{
+    background-color: orange !important;
+    border: orange;
+}
